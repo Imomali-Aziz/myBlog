@@ -205,11 +205,11 @@ body {
 .hover-btn.hover-filled-slide-left::before {
   top: 0;
   bottom: 0;
-  right: 0;
+  left: 0;
   height: 100%;
-  width: 0%;
+  width: 100%;
 }
 
 .hover-btn.hover-filled-slide-left:hover::before {
-  width: 100%;
+  width: 0%;
 }
