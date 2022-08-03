@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="./custom.css">
+  <link rel="stylesheet" href="..custom.css">
 </head>
 <body>
   <!-- Navbar -->
@@ -52,37 +52,23 @@
   <!-- /Navbar -->
 
 
-  <!-- New post -->
+  <!-- Delete post -->
   <section class="custom-form pt-5">
     <div class="container py-5 px-lg-5">
       <form method='POST' class='mx-lg-5 px-lg-5'>
-        <h2 class='mb-3'>Yangi post</h2>
-        <div class="form-floating mb-4">
-          <input type="text" class="form-control rounded-0" id="post-title" placeholder="Post sarlavhasi">
-          <label for="post-title">Sarlavha</label>  
-        </div>
-        <div class="form-floating mb-4">
-          <input type="text" class="form-control rounded-0" id="post-summary" placeholder="Qisqacha mazmuni">
-          <label for="post-summary">Qisqa matn</label>
-        </div>
-        <div class="form-floating mb-4">
-          <textarea class="form-control rounded-0" placeholder="Post matnini shu yerga yozing" id="post-text"></textarea>
-          <label for="post-text">Post matni</label>
-        </div>
-        <div class="mb-4">
-          <label class="mb-1" for="post-file">Post uchun rasm</label>
-          <input type="file" class="form-control rounded-0" id="post-file">
-        </div>
+        <h2 class='mb-4'>Postni o'chirish</h2>
+        <p class="fs-4 mb-4">Haqiqatdan ham "Qiziqarli blog yuritish" nomli postni o'chirmoqchimisiz?</p>
         <div class="submit-part">
           <button class="hover-btn hover-btn-1 hover-filled-slide-left">
-            <span>Yuborish</span>
+            <span>O'chirish</span>
           </button>
+          <a href="#" class="mx-2 mx-lg-4 mx-md-2 my-1 d-inline-block custom-link fs-5">Bekor qilish</a>
         </div>
 
       </form>
     </div>
   </section>
-  <!-- /New post -->
+  <!-- /Delete post -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
